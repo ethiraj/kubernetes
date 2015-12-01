@@ -2,6 +2,7 @@ apiVersion: v1
 kind: ReplicationController
 metadata:
   name: frontend
+  # This is to test the pull and push request by Raj 
   # these labels can be applied automatically
   # from the labels in the pod template if not set
   labels:
